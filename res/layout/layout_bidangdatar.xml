@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+    <TextView 
+        android:id="@+id/tvsisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sisi persegi = 3"       
+        />
+    <TextView
+        android:id="@+id/tvkeliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keliling = ___"
+        android:layout_below="@+id/tvsisi"
+        />
+    <EditText 
+        android:id="@+id/etbidangdatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hasil"
+        android:layout_below="@+id/tvkeliling"        
+        />
+    <Button 
+        android:id="@+id/btnbidangdatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawaban"
+        android:layout_below="@+id/etbidangdatar"         
+        />
+    <TextView 
+        android:id="@+id/tvdatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbidangdatar"            
+        />
+</RelativeLayout>
